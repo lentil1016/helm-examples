@@ -1,0 +1,4 @@
+{{ $count := .Values.count | int }}
+{{- range until $count }}
+count to {{.}}
+{{- end }}
